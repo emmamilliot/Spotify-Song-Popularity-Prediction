@@ -21,11 +21,11 @@ if(quick_mode):
     _test = 'test_small.csv'
 
 problem_title = 'Spotify song popularity prediction'
-_target_column_names = ['ref']
+_target_column_names = ['popularity']
 
 # A type (class) which will be used to create wrapper objects for y_pred
 Predictions = rw.prediction_types.make_regression(
-    label_names=['ref'])
+    label_names=['popularity'])
 # An object implementing the workflow
 workflow = rw.workflows.FeatureExtractorRegressor()
 

@@ -9,7 +9,7 @@ The notebook containing the description of the data and the challenge is availab
 
 ## Installation 
  - install `ramp-workflow` library 
- - run `$ pip install git+https://github.com/esarf/datacamp-loyers.git`
+ - run `$ pip install git+https://github.com/e-barrere/Spotify-Song-Popularity-Prediction.git`
  
 ## Testing the predictions locally  
 
